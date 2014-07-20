@@ -21,6 +21,7 @@
 		3D79E69D19795B3400B24290 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D79E67F19795B3400B24290 /* UIKit.framework */; };
 		3D79E6A519795B3400B24290 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D79E6A319795B3400B24290 /* InfoPlist.strings */; };
 		3D79E6A719795B3400B24290 /* ManualMemoryManagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D79E6A619795B3400B24290 /* ManualMemoryManagementTests.m */; };
+		3D79E6B219795C2200B24290 /* MMMFish.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D79E6B119795C2200B24290 /* MMMFish.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		3D79E6A219795B3400B24290 /* ManualMemoryManagementTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ManualMemoryManagementTests-Info.plist"; sourceTree = "<group>"; };
 		3D79E6A419795B3400B24290 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3D79E6A619795B3400B24290 /* ManualMemoryManagementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManualMemoryManagementTests.m; sourceTree = "<group>"; };
+		3D79E6B019795C2200B24290 /* MMMFish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMFish.h; sourceTree = "<group>"; };
+		3D79E6B119795C2200B24290 /* MMMFish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMFish.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				3D79E68D19795B3400B24290 /* Main.storyboard */,
 				3D79E69019795B3400B24290 /* MMMViewController.h */,
 				3D79E69119795B3400B24290 /* MMMViewController.m */,
+				3D79E6B019795C2200B24290 /* MMMFish.h */,
+				3D79E6B119795C2200B24290 /* MMMFish.m */,
 				3D79E69319795B3400B24290 /* Images.xcassets */,
 				3D79E68219795B3400B24290 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D79E68C19795B3400B24290 /* MMMAppDelegate.m in Sources */,
+				3D79E6B219795C2200B24290 /* MMMFish.m in Sources */,
 				3D79E68819795B3400B24290 /* main.m in Sources */,
 				3D79E69219795B3400B24290 /* MMMViewController.m in Sources */,
 			);
@@ -309,7 +315,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -347,7 +353,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
